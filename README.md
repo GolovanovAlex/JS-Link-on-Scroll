@@ -1,6 +1,6 @@
 # JS-Link-on-Scroll
 
-![gif](readme/underconstraction.gif)
+![gif](readme/underconstruction.gif)
 
 ## Contacts
 
