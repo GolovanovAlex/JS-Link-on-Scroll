@@ -55,4 +55,11 @@ section h2 {
 .menu__link {
   color: #fefefe;
   text-decoration: none;
+  padding: 12px 20px;
+}
+.menu__link.active {
+  background: var(--clr);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  color: #202020;
 }
