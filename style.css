@@ -18,13 +18,41 @@ section {
 }
 section h2 {
   font-size: 80px;
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 20px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 50px 0;
+}
+.logo {
+  color: #fefefe;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
 }
 .menu {
 }
 .menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
 .menu__item {
+  list-style: none;
 }
 .menu__link {
+  color: #fefefe;
+  text-decoration: none;
 }
