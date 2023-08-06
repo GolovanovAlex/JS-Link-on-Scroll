@@ -1,12 +1,12 @@
-let section = document.querySelectorAll('section');
-let links = document.querySelectorAll('.menu__link');
+let sec = document.querySelectorAll('section');
+let links = document.querySelectorAll('li a');
 
 window.onscroll = () => {
-  section.forEach((sec) => {
+  sec.forEach((section) => {
     let top = window.scrollY;
-    let offset = sec.offsetTop - 60;
-    let height = sec.offsetHeight;
-    let id = sec.getAttribute('id');
+    let offset = section.offsetTop;
+    let height = section.offsetHeight - 70;
+    let id = section.getAttribute('id');
 
     if (top >= offset && top < offset + height) {
       links.forEach((link) => {
